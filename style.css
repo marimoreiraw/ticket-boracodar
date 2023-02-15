@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-animation-smoothing: grayscale;
+  font-family: 'Rubik';
+}
+
+body {
+  width: 100vw;
+  background: linear-gradient(167.96deg, #8257E5 0%, #271A45 100%);
+}
+
+#page {
+  margin-top: 78px;
+  margin-bottom: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#tittle {
+ margin-bottom: 20px;
+ display: flex;
+ justify-content: center;
+ font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #ffff;
+}
+
+#ticket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 327px;
+  height: 544px;
+
+  background-image: url(assets/shape.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.leftContent {
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+}
+
+.rightContent {
+ display: flex;
+ align-items: flex-end;
+ flex-direction: column;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.64);
+}
+.information {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  margin-top: 24px;
+}
+ 
+#firstContainer {
+  width: 100%;
+  padding: 0px 32px 24px 32px;
+}
+
+.airport {
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.time {
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: rgba(0, 0, 0, 0.8);
+}
+
+.info {
+font-size: 10px;
+line-height: 12px;
+vertical-align: top;
+}
+
+#secondContainer {
+  width: 100%;
+  padding: 0px 32px 24px 20px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
+  border-top: 1px dashed rgba(0, 0, 0, 0.32);
+}
+
+#thirdContainer {
+  width: 100%;
+  padding: 0px 32px 24px 32px;
+}
+
+.image {
+width: 140px;
+height: 140px;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.thirdContainer {
+  margin-top: 16px;
+}
+
+#fourthContainer {
+  padding: 0 32px 24px 32px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.atention {
+font-size: 14px;
+margin-right: 2px;
+}
+
+#baseboard {
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+opacity: 0.64;
+margin-top: 20px;
+}
